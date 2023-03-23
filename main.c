@@ -22,7 +22,7 @@ int main() {
     }
 
     // prompt user to enter values for matrix
-    printf("Zadejte hodnoty pro matici %d*%d:\n", n, n);
+    printf("Zadejte hodnoty pro matici %d x %d:\n", n, n);
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
             scanf("%d", &matrix[i][j]);
