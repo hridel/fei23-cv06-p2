@@ -33,7 +33,7 @@ int main() {
     printf("Hodnoty matice jsou:\n");
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
-            printf("%d ", matrix[i][j]);
+            printf("%3d ", matrix[i][j]);
         }
         printf("\n");
     }
